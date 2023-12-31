@@ -1,0 +1,206 @@
+/*!
+Theme Name: myour child
+Theme URI: https://myour.bslthemes.com/
+Author: beshleyua
+Author URI: https://themeforest.net/user/beshleyua
+Description: Myour - One Page Resume WordPress Theme
+Version: 1.0.0
+License: General Public License
+License URI: http://www.gnu.org/licenses/gpl.html
+Template: myour
+Text Domain: myour-child
+Tags: full-width-template, editor-style, featured-images, sticky-post, threaded-comments, translation-ready, theme-options 
+*/
+
+
+/*
+========================================================
+>>> Global Section
+========================================================
+*/
+h1, h2, h3, h4, h5, h6 {
+	margin-top: 8px;
+	margin-bottom: 8px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.section .titles .title,
+.section.started .h-title,
+.content-sidebar .widget-title,
+.title.comment-reply-title, 
+.post-comments .title,
+.resume-item .name,
+.skills .name,
+.service-item .name,
+.box-items .box-item .desc .name,
+.contact-info .name,
+.pricing-item .name,
+.reviews-item .name,
+.blog-items .blog-item .desc .name {
+	color: #dc435e;
+}
+
+section h5,
+section .resume-item .name,
+section .skills .name,
+section .service-item .name,
+section .box-items .box-item .desc .name,
+section .contact-info .name,
+section .pricing-item .name,
+section .reviews-item .name,
+section .blog-items .blog-item .desc .name {
+	color: #ffffff;
+}
+
+.section {
+	border-bottom: 1px solid #279BAB;
+}
+
+.content-carousel .navs .prev, 
+.content-carousel .navs .next {
+	border: 1px solid #ffffff;
+}
+
+.content-carousel .navs::before {
+	background: #ffffff;
+}
+
+a.btn, 
+.btn, 
+.single-post-text input[type="submit"], button {
+	border: 1px solid #ffffff;
+}
+
+.mmhs-about-me-heading {
+	font-size: 18px;
+	color: #ffc83d;
+}
+
+/*
+========================================================
+>>> My image Section
+========================================================
+*/
+.background-filter .background-img {
+	-webkit-filter: grayscale(100%);
+	filter: grayscale(0%);
+	mix-blend-mode: inherit;
+}
+
+/*
+========================================================
+>>> Header Section
+========================================================
+*/
+.header {
+	background: #A2273B;
+}
+
+/*
+========================================================
+>>> About Me Section
+========================================================
+*/
+.aboutMeSection .forDesign {
+	margin-top: 10px;
+}
+
+.aboutMeSection .info-list > ul > li:last-child {
+	width: 100%;
+}
+
+/*
+========================================================
+>>> Service Section
+========================================================
+*/
+
+.serviceSectionWrapper .icon,
+.serviceSectionWrapper .name {
+	text-align: center;
+}
+
+.serviceSectionWrapper .name {
+	margin-bottom: 0;
+}
+
+
+/*
+========================================================
+>>> Portfolio Section
+========================================================
+*/
+
+.portfolioSectionWrapper .eg-filter-wrap > ul > li {
+	margin: 8px 2px 8px 2px;
+}
+
+.portfolioSectionWrapper .eg-overlay-layout-14 .eg-overlay-wrapper .eg-mask .eg-caption span.eg-title {
+	display: block !important;
+	color: #fff;
+	font-size: 16px;
+}
+
+.eg-filter-wrap.eg-filter-layout-2 ul li a.eg-active-filter, 
+.eg-filter-wrap.eg-filter-layout-2 ul li a:hover {
+	background: #A2273B;
+	color: #fff;
+	border-color: #dc435e;
+}
+
+.eg-filter-wrap.eg-filter-layout-2 ul li a {
+	border: 1px solid #ffffff;
+	color: #ffffff;
+}
+
+/*
+========================================================
+>>> Contact Us Section
+========================================================
+*/
+
+
+input, 
+textarea {
+	border: 1px solid #ffffff;
+}
+
+.contact-info {
+	border: 1px solid #ffffff;
+	padding: 30px 5px 30px 15px;
+}
+
+/*
+========================================================
+>>> Footer Section
+========================================================
+*/
+
+.footer .socials a {
+	border: 1px solid #ffffff;
+	background-color: #aa2d3f !important;
+}
+
+.footer::before {
+	background: #279BAB;
+}
+
+.footer .socials a .fab, 
+.footer .socials a .far {
+	font-weight: 200;
+	font-size: 22px;
+}
+
+
+
+
+
+
+
+
+
